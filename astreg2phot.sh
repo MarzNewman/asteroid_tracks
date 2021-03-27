@@ -66,6 +66,6 @@ paste $astname.photast.tmp $regfile.proc > $astname.photast
 #python ~/cfht-pip2/timefitx.py $astname
 #python ~/cfht-pip2/timefity.py $astname
 ~/cfht-pip2/convert.sh $astname 
-python ~/cfht-pip2/all_fits.py $astname 1
+python3 ~/cfht-pip2/all_fits.py $astname 1
 ~/cfht-pip2/convert.sh $astname 
 ~/cfht-pip2/astreg2phot2.sh $astname.txt asteroid_tracking.txt
