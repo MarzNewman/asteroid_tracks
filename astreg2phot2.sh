@@ -66,5 +66,5 @@ paste $astname.photast.tmp $regfile > ${astname}_2.photast
 #python ~/cfht-pip2/timefitx_2.py $astname
 #python ~/cfht-pip2/fitphotom.py $astname
 ~/cfht-pip2/convert.sh $astname 
-python ~/cfht-pip2/all_fits.py $astname 2
+python3 ~/cfht-pip2/all_fits.py $astname 2
 ~/cfht-pip2/convert.sh $astname 
