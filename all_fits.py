@@ -376,8 +376,8 @@ if iteration=="1":
 		with open(astname+'_optx.txt', 'r') as file1:
         		with open(astname+'_opty.txt', 'r') as file2:
             			for line1, line2 in zip(file1, file2):
-                			print >> file3, line1.strip(), line2.strip()		#python 3 syntax
-                			#print (line1.strip(), line2.strip(), file=file3)	#python 2 syntax
+                			#print >> file3, line1.strip(), line2.strip()		#python 3 syntax?
+                			print (line1.strip(), line2.strip(), file=file3)	#python 2 syntax?
    
 
 ################################
