@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#if [ $# -ne 1 ]; then
-    #echo "Usage: $0 <asteroid_name>"
-    #echo "Run from directory containing data"
-    #exit
-#fi
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 <asteroid_name>"
+    echo "Run from directory containing data"
+    exit
+fi
 
 astname=$1
 curdir=$(pwd)
