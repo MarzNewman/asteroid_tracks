@@ -14,7 +14,7 @@ files=glob.glob('MISHAPS_F1_*_r/MN*_1RAdec.txt')
 
 #plot asteroids	
 for i in files:
-	#print(i)							#use this line to find out which file is causing the code to break
+	print(i)							#use this line to find out which file is causing the code to break
 	d=pd.read_csv(i, sep = '\s+', header = None)
 	meanX=np.mean(d.iloc[:,0])
 	meanY=np.mean(d.iloc[:,1])
