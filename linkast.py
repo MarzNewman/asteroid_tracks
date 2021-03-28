@@ -50,7 +50,8 @@ with open('jointData.txt', 'w') as file3:
     with open('jointData.photast', 'r') as file1:
         with open('jointDataRAdec.txt', 'r') as file2:
             for line1, line2 in zip(file1, file2):
-                print >>file3, line1.strip(), line2.strip()
+                #print >>file3, line1.strip(), line2.strip()		#python 2 syntax
+		print (line1.strip(), line2.strip(), file=file3)	#python 3 syntax
                 
                 
 ########### RA PLOT 1 ###########
