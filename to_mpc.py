@@ -10,6 +10,7 @@ import astropy
 from astropy.time import TimeISO
 from astropy.coordinates import Angle
 
+# run from directory containing region file
 # iteration: an integer value of 1 or 2. An iteration value of 1 is for un-optimized asteroid data and an iteration value of 2 is for optimized data.
 if len(sys.argv)!=3:
 	print("usage: %s <asteroidname> <iteration>" % (sys.argv[0]))	
