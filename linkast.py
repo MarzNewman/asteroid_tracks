@@ -1,4 +1,4 @@
-pimport matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 import pandas as pd
 import numpy as np
